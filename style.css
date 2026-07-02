@@ -1379,3 +1379,76 @@ text-align:center;
 }
 
 }
+/*==========================================
+PARTICLES
+==========================================*/
+
+#particles{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+pointer-events:none;
+
+z-index:1;
+
+}
+
+/*==========================================
+LOADING SCREEN
+==========================================*/
+
+.loader{
+
+position:fixed;
+
+inset:0;
+
+background:#050505;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+z-index:99999;
+
+}
+
+.loader h1{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:72px;
+
+color:#D4AF37;
+
+letter-spacing:10px;
+
+animation:pulse 2s infinite;
+
+}
+
+@keyframes pulse{
+
+0%,100%{
+
+opacity:1;
+
+}
+
+50%{
+
+opacity:.4;
+
+}
+
+}
