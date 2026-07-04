@@ -2801,3 +2801,30 @@ opacity:.2;
 }
 
 }
+.spotlight{
+
+position:fixed;
+
+width:700px;
+
+height:700px;
+
+border-radius:50%;
+
+background:radial-gradient(
+
+rgba(212,175,55,.08),
+
+transparent 70%
+
+);
+
+pointer-events:none;
+
+transform:translate(-50%,-50%);
+
+z-index:0;
+
+filter:blur(20px);
+
+  }
