@@ -487,3 +487,56 @@ loader.style.visibility="hidden";
 },3200);
 
 });
+//==============================
+// HERO INTRO
+//==============================
+
+gsap.from(".hero h1",{
+
+opacity:0,
+
+y:120,
+
+duration:1.6,
+
+ease:"power4.out"
+
+});
+
+gsap.from(".hero p",{
+
+opacity:0,
+
+y:60,
+
+delay:.5,
+
+duration:1.2
+
+});
+
+gsap.from(".gold-button",{
+
+opacity:0,
+
+scale:.8,
+
+delay:.9,
+
+duration:1
+
+});
+
+gsap.from(".floating-bottle",{
+
+opacity:0,
+
+scale:.5,
+
+rotation:15,
+
+duration:2,
+
+ease:"power3.out"
+
+});
