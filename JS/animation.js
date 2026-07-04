@@ -77,3 +77,26 @@ hero.style.transform=
 `translate(${x}px,${y}px)`;
 
 });
+//==============================
+// LENIS SMOOTH SCROLL
+//==============================
+
+const lenis = new Lenis({
+
+duration:1.3,
+
+smoothWheel:true,
+
+gestureOrientation:"vertical"
+
+});
+
+function raf(time){
+
+lenis.raf(time);
+
+requestAnimationFrame(raf);
+
+}
+
+requestAnimationFrame(raf);
