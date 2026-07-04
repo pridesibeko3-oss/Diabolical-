@@ -121,3 +121,36 @@ start:"top 85%"
 });
 
 });
+document.querySelectorAll(".collection-card").forEach(card=>{
+
+card.addEventListener("mousemove",(e)=>{
+
+const rect=card.getBoundingClientRect();
+
+const x=e.clientX-rect.left;
+
+const y=e.clientY-rect.top;
+
+const rotateY=((x/rect.width)-0.5)*16;
+
+const rotateX=((y/rect.height)-0.5)*-16;
+
+card.style.transform=
+
+`perspective(1200px)
+
+rotateX(${rotateX}deg)
+
+rotateY(${rotateY}deg)
+
+translateY(-10px)`;
+
+});
+
+card.addEventListener("mouseleave",()=>{
+
+card.style.transform="perspective(1200px)";
+
+});
+
+});
