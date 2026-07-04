@@ -543,7 +543,65 @@ transform:translateY(-20px);
 
 }
 
+}.scroll-indicator{
+
+position:absolute;
+
+bottom:40px;
+
+left:50%;
+
+transform:translateX(-50%);
+
 }
+
+.scroll-indicator span{
+
+display:block;
+
+width:2px;
+
+height:70px;
+
+background:
+
+linear-gradient(
+
+transparent,
+
+#D4AF37,
+
+transparent);
+
+animation:scrollDown 2s infinite;
+
+}
+
+@keyframes scrollDown{
+
+0%{
+
+opacity:0;
+
+transform:translateY(-20px);
+
+}
+
+50%{
+
+opacity:1;
+
+}
+
+100%{
+
+opacity:0;
+
+transform:translateY(20px);
+
+}
+
+  }
 /*==================================
 FEATURED COLLECTION
 ==================================*/
