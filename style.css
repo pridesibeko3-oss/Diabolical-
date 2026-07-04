@@ -2179,3 +2179,152 @@ color:#D4AF37;
 text-decoration:none;
 
   }
+/*==================================
+HOUSE MEMBER DASHBOARD
+==================================*/
+
+.member-hero{
+
+padding:200px 8% 100px;
+
+text-align:center;
+
+background:
+linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.9)),
+url(images/member-bg.jpg);
+
+background-size:cover;
+
+background-position:center;
+
+}
+
+.member-hero h1{
+
+font-size:5rem;
+
+font-family:'Cormorant Garamond',serif;
+
+margin:25px 0;
+
+}
+
+.member-dashboard{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:35px;
+
+padding:100px 8%;
+
+}
+
+.dashboard-card{
+
+background:#0d0d0d;
+
+padding:40px;
+
+border-radius:22px;
+
+border:1px solid rgba(255,255,255,.06);
+
+transition:.4s;
+
+}
+
+.dashboard-card:hover{
+
+transform:translateY(-10px);
+
+border-color:#D4AF37;
+
+}
+
+.dashboard-card h2{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:34px;
+
+margin-bottom:20px;
+
+}
+
+.dashboard-card p{
+
+color:#bdbdbd;
+
+margin-bottom:35px;
+
+line-height:1.8;
+
+}
+
+.exclusive-access{
+
+padding:120px 8%;
+
+text-align:center;
+
+}
+
+.exclusive-access h2{
+
+font-size:4rem;
+
+font-family:'Cormorant Garamond',serif;
+
+margin-bottom:70px;
+
+}
+
+.access-grid{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:40px;
+
+}
+
+.access-grid div{
+
+background:#0d0d0d;
+
+padding:40px;
+
+border-radius:20px;
+
+border:1px solid rgba(255,255,255,.06);
+
+}
+
+.access-grid h3{
+
+margin-bottom:20px;
+
+color:#D4AF37;
+
+}
+
+.access-grid p{
+
+color:#bdbdbd;
+
+line-height:1.8;
+
+}
+
+@media(max-width:900px){
+
+.access-grid{
+
+grid-template-columns:1fr;
+
+}
+
+  }
