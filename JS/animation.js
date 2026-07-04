@@ -100,3 +100,24 @@ requestAnimationFrame(raf);
 }
 
 requestAnimationFrame(raf);
+gsap.utils.toArray(".reveal").forEach(section=>{
+
+gsap.from(section,{
+
+opacity:0,
+
+y:120,
+
+duration:1.3,
+
+scrollTrigger:{
+
+trigger:section,
+
+start:"top 85%"
+
+}
+
+});
+
+});
