@@ -2514,3 +2514,24 @@ box-shadow:
 0 40px 80px rgba(0,0,0,.5);
 
                      }
+.luxury-divider{
+
+width:120px;
+
+height:2px;
+
+margin:120px auto;
+
+background:linear-gradient(
+
+90deg,
+
+transparent,
+
+#D4AF37,
+
+transparent
+
+);
+
+                }
