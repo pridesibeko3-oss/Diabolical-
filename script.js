@@ -470,3 +470,20 @@ opacity:0,
 duration:.8
 
 });
+//==============================
+// LOADER
+//==============================
+
+window.addEventListener("load",()=>{
+
+setTimeout(()=>{
+
+const loader=document.getElementById("loader");
+
+loader.style.opacity="0";
+
+loader.style.visibility="hidden";
+
+},3200);
+
+});
